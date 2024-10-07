@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1091199330114",
+    "project_id": "mobilecomputingactivitie-d6486",
+    "storage_bucket": "mobilecomputingactivitie-d6486.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091199330114:android:6d7796d4e2de7a65064adb",
+        "android_client_info": {
+          "package_name": "com.example.mobilecomputingactivities"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmMU7hOj8spfWbvHs6TvOa9BLgPm6chfI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

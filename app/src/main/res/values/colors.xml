@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bgColor">#FFBCDA</color>
+    <color name="cardColor">#FFE471</color>
+    <color name="textColor">#333334</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="darkblue">#2a364e</color>
+    <color name="blue">#1a4870</color>
+    <color name="purple">#8692f7</color>
+
+    <color name="calbg">#1D1D1D</color>
+    <color name="numbtns">#3E3E3E</color>
+    <color name="operationbtns">#575A9B</color>
+    <color name="numColor">#F1F1F1</color>
+    <color name="clearbtn">#F86464</color>
+    <color name="clearTextColor">#B71818</color>
+</resources>

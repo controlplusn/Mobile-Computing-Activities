@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".RegisterForm">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:text="Registration"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:padding="10dp"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/unm" />
+
+    <EditText
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/pwd" />
+
+    <EditText
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:hint="Email ID"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/eid" />
+
+    <EditText
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:padding="10dp"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/pno" />
+
+    <AutoCompleteTextView
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColorHint="@android:color/white"
+        android:hint="Country"
+        android:id="@+id/country" />
+
+    <Spinner
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/state">
+
+    </Spinner>
+
+    <RadioGroup
+        android:layout_width="349dp"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textColor="@android:color/white" />
+
+        <RadioButton
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textColor="@android:color/white" />
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:hint="Interest"
+        android:padding="10dp"
+        android:maxLength="10"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/interest" />
+
+    <EditText
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:hint="Birthdate"
+        android:padding="10dp"
+        android:maxLength="10"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/birthdate" />
+
+    <Button
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18sp"
+        android:backgroundTint="@color/darkblue"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:id="@+id/regi" />
+
+
+
+</LinearLayout>
